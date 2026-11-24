@@ -17,19 +17,19 @@ I build plugins, skills and harnesses for coding agents like **Claude Code** and
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/chipfighter/context-attachment-manager/HEAD/plugin/assets/logo.png" width="40" height="40" align="left" alt="">
-      &nbsp;<a href="https://github.com/chipfighter/context-attachment-manager"><b>Context Attachment Manager</b></a><br>
-      &nbsp;<sub>Codex · Claude Code plugin</sub>
-      <br clear="left"><br>
+      <a href="https://github.com/chipfighter/context-attachment-manager"><img src="https://raw.githubusercontent.com/chipfighter/context-attachment-manager/HEAD/plugin/assets/logo.png" width="40" height="40" alt=""></a><br>
+      <a href="https://github.com/chipfighter/context-attachment-manager"><b>Context Attachment Manager</b></a><br>
+      <sub>Codex · Claude Code plugin</sub>
+      <br><br>
       Keeps long, image-heavy Codex and Claude Code chats fast. Earlier images fold into ID placeholders the model fetches back on demand, even after compaction.
       <br><br>
       <sub><b>42.4 MB → 0.12 MB</b> in one Codex request · <b>20/20</b> image questions right after compaction</sub>
     </td>
     <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/chipfighter/lodestar/HEAD/docs/logo.svg" width="40" height="40" align="left" alt="">
-      &nbsp;<a href="https://github.com/chipfighter/lodestar"><b>Lodestar</b></a><br>
-      &nbsp;<sub>Claude Code plugin · Windows client</sub>
-      <br clear="left"><br>
+      <a href="https://github.com/chipfighter/lodestar"><img src="https://raw.githubusercontent.com/chipfighter/lodestar/HEAD/docs/logo.svg" width="40" height="40" alt=""></a><br>
+      <a href="https://github.com/chipfighter/lodestar"><b>Lodestar</b></a><br>
+      <sub>Claude Code plugin · Windows client</sub>
+      <br><br>
       Choose which skills each Claude Code session loads, and only those. Pick a skill set at the first message; subagents get their own.
       <br><br>
       <sub>Also works with Codex · 中文 / English</sub>
