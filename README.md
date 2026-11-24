@@ -26,7 +26,7 @@ I build plugins, skills and harnesses for coding agents like **Claude Code** and
       <sub><b>42.4 MB → 0.12 MB</b> in one Codex request · <b>20/20</b> image questions right after compaction</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/chipfighter/lodestar"><img src="https://raw.githubusercontent.com/chipfighter/lodestar/HEAD/docs/logo.svg" width="40" height="40" alt=""></a><br>
+      <a href="https://github.com/chipfighter/lodestar"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chipfighter/lodestar/HEAD/docs/logo-dark.svg"><img src="https://raw.githubusercontent.com/chipfighter/lodestar/HEAD/docs/logo.svg" width="40" height="40" alt=""></picture></a><br>
       <a href="https://github.com/chipfighter/lodestar"><b>Lodestar</b></a><br>
       <sub>Claude Code plugin · Windows client</sub>
       <br><br>
