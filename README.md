@@ -40,13 +40,12 @@ I build plugins, skills and harnesses for coding agents like **Claude Code** and
 ### 🚧 Building now
 
 **[liveops](https://github.com/chipfighter/liveops)** — a local-first, open-source assistant for live-commerce and short-video operations, built around an agent. It records live streams, transcribes them, splits them into per-product segments, reads on-screen prices and offers, and answers operations questions with tools. No account, no backend: your own model and key, on 127.0.0.1.
-<br><sub>Early stage · Douyin live pipeline works end to end · TypeScript + Python</sub>
+<br><sub>Early stage · Douyin live pipeline works end to end · TypeScript server and agent · Python workers (Whisper, RapidOCR) · pnpm + uv monorepo</sub>
 
 ### 🧰 Agent tooling
 
 - **[coding-discipline](https://github.com/chipfighter/coding-discipline)** — guardrails for AI coding agents: traces bugs with unclear causes and keeps confirmed project decisions across sessions
 - **[Radar-Research](https://github.com/chipfighter/Radar-Research)** — a local research agent that reads *every* source in a list you curate (RSS, arXiv, GitHub, HN, Reddit) and cites each line
-- **[moongraph](https://github.com/chipfighter/moongraph)** — a lightweight, pure-async workflow runner with no heavy dependencies
 - **[rag_diff](https://github.com/chipfighter/rag_diff)** — regression testing and debugging CLI for RAG pipelines: context diffing, cached LLM judges, root-cause triage
 
 ### 🎬 AIGC skills
@@ -58,28 +57,40 @@ I build plugins, skills and harnesses for coding agents like **Claude Code** and
 - **Generate** — [image-prompt](https://github.com/chipfighter/aigc-skills/tree/main/skills/image-prompt) (ideas into photographic language) · [video-prompt](https://github.com/chipfighter/aigc-skills/tree/main/skills/video-prompt) (acting and camera, for Seedance, Kling and more) · [natural-emotional-performance](https://github.com/chipfighter/aigc-skills/tree/main/skills/natural-emotional-performance)
 - **Check & finish** — [image-spec-check](https://github.com/chipfighter/aigc-skills/tree/main/skills/image-spec-check) (a requirements checklist, crop-checked on every image) · [post-production-sound](https://github.com/chipfighter/aigc-skills/tree/main/skills/post-production-sound) (layered SFX and mixing)
 
+### 🧩 Full-stack agent apps
+
+- **[Agentic Tutor](https://github.com/chipfighter/gaokao_tutor)** — a multi-agent exam-prep assistant. A small router model hands each question to a tutoring, planning or emotional-support agent; study plans go through a drafter-vs-reviewers loop, then pause for the student to approve or edit.
+  <br><sub>Next.js · Tailwind · React Flow ⇄ SSE ⇄ FastAPI · LangGraph · Docker Compose</sub>
+- **[Spy Among Us](https://github.com/chipfighter/SpyAmongUs)** — a real-time multiplayer party game with LLM players that speak, vote and bluff. Rooms, timed rounds, voting, a private spy channel and an admin panel. My graduation project.
+  <br><sub>Vue 3 · Pinia · Vite ⇄ WebSocket ⇄ FastAPI · Redis · MongoDB · JWT</sub>
+
 ### 🤝 Open source
 
 - **[kagent-dev/kagent](https://github.com/kagent-dev/kagent)** (cloud-native agentic AI) — UI form-validation tests ([#3017](https://github.com/kagent-dev/kagent/pull/3017)) and mock-mode docs ([#2998](https://github.com/kagent-dev/kagent/pull/2998))
 - Listed in [awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins), [awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins) and [up-for-grabs.net](https://github.com/up-for-grabs/up-for-grabs.net)
 
-<details>
-<summary><b>🌱 Earlier projects</b></summary>
-<br>
-
-- [**gaokao_tutor**](https://github.com/chipfighter/gaokao_tutor) — multi-agent tutoring system on LangGraph, with emotion recognition and RAG over past exam papers
-- [**SpyAmongUs**](https://github.com/chipfighter/SpyAmongUs) — real-time game platform (FastAPI + Vue 3) with autonomous game agents; graduation project
-- [**Nbody-Stars-System**](https://github.com/chipfighter/Nbody-Stars-System) — N-body star system simulation in C++
-
-</details>
-
 ### 🛠 Tools I work with
 
+<sub><b>Languages</b></sub><br>
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+<sub><b>Front end & desktop</b></sub><br>
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white)
+
+<sub><b>Back end & data</b></sub><br>
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+<sub><b>Agents</b></sub><br>
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-4A4A4A?style=flat-square&logo=modelcontextprotocol&logoColor=white)
